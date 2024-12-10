@@ -132,6 +132,6 @@ app.get('/total', (req, res) => {
 
 // Server initialization
 const PORT = process.env.PORT || 20422;
-app.listen(PORT, () => {
+app.listen(PORT, (30000) => {
   console.log(`Internal server is running on port ${PORT}`);
 });
